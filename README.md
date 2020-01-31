@@ -4,7 +4,7 @@
   
 InvAccounts	
 
-  登入	Login	
+ 	 登入	Login	
   
 	確認登入狀態	CheckSession	
 	
@@ -30,7 +30,7 @@ InvAccounts
   
 InvClientInfoes
 
-  新增顧客資訊	CreadeCliInfo	
+  	新增顧客資訊	CreadeCliInfo	
 	買家統編重複	CheckCliUn	
 	查詢顧客資訊	SearchCliInfo	每頁10筆
 	顯示顧客編輯	LoadCliEd	
@@ -41,7 +41,7 @@ InvClientInfoes
   
 InvLetters
   
-  新增票軌	CreadeInvLet	
+  	新增票軌	CreadeInvLet	
 	查詢票軌	SearchInvLet	每頁10筆
 	鎖定/解鎖票軌	LockInvLet	
 	刪除票軌	DeleteInvLet	
@@ -49,7 +49,7 @@ InvLetters
   
 InvTables
 
-  查詢發票	SearchInvInfo	每頁10筆
+  	查詢發票	SearchInvInfo	每頁10筆
 	顯示作廢發票	LoadDelInv	
 	新增作廢發票+原因時間	UpdateDelInv	
 	顯示發票編輯	LoadInvEd	
