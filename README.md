@@ -1,5 +1,13 @@
 # InvoiceAPI
 
+下方測試網站中，目前僅有將基本主要的功能部分上線，但下方所列的 API 皆經 Postman 中確定測試無誤，且目前已有實際上線，並有實際使用來開立發票。
+
+陽春版本測試區： https://invoice.rocket-coding.com/
+帳號：87654321
+密碼：1234
+
+
+
 	Controller名稱	API 功能	Action 名稱	註解
   
 InvAccounts	
