@@ -1,0 +1,114 @@
+﻿@model InvoiceAPI.Models.InvAccount
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>InvAccount</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.InitDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InitDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Guid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Guid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CompName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CompName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UniformNumbers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UniformNumbers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Salt)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Salt)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MngrEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MngrEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MngrName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MngrName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MngrPhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MngrPhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CompAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CompAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CompPhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CompPhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.verif)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.verif)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

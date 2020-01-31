@@ -1,0 +1,125 @@
+﻿@model IEnumerable<InvoiceAPI.Models.InvTable>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.InvAccount.Guid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InitDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Letter)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Num)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InvNum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InvDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClientId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Client)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClientUniformNum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClientAdress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClientPhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Total)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InvStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DropTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DropReason)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.InvAccount.Guid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InitDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Letter)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Num)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InvNum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InvDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Client)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientUniformNum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientAdress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientPhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Total)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InvStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DropTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DropReason)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>
