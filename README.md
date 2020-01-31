@@ -5,27 +5,16 @@
 InvAccounts	
 
  	 登入	Login	
-  
-	確認登入狀態	CheckSession	
-	
-	登出	SignOut	
-	
-	新增帳號	CreadeAcInfo	
-	
-	帳號統編重複	CheckAcUn	
-	
+  	確認登入狀態	CheckSession		
+	登出	SignOut		
+	新增帳號	CreadeAcInfo		
+	帳號統編重複	CheckAcUn		
 	信箱驗證(GET)*	CheckAcEm	
-	
-	忘記密碼	ForgetAcPw	
-	
-	忘記密碼-重設	ResetAcPw	
-	
-	帳號資訊-讀取	LoadAcEd	
-	
-	帳號資訊-編輯	UpdateAcEd	
-	
-	載入賣家資訊	LoadCliInfo	
-	
+	忘記密碼	ForgetAcPw		
+	忘記密碼-重設	ResetAcPw		
+	帳號資訊-讀取	LoadAcEd		
+	帳號資訊-編輯	UpdateAcEd		
+	載入賣家資訊	LoadCliInfo		
 	recaptcha v3*	IsRobot	
   
 InvClientInfoes
