@@ -1,0 +1,7 @@
+C:\Users\MARK\source\repos\ChangeInvLetterStatus\bin\Debug\ChangeInvLetterStatus.exe.config
+C:\Users\MARK\source\repos\ChangeInvLetterStatus\bin\Debug\ChangeInvLetterStatus.exe
+C:\Users\MARK\source\repos\ChangeInvLetterStatus\bin\Debug\ChangeInvLetterStatus.pdb
+C:\Users\MARK\source\repos\ChangeInvLetterStatus\obj\Debug\ChangeInvLetterStatus.csprojAssemblyReference.cache
+C:\Users\MARK\source\repos\ChangeInvLetterStatus\obj\Debug\ChangeInvLetterStatus.csproj.CoreCompileInputs.cache
+C:\Users\MARK\source\repos\ChangeInvLetterStatus\obj\Debug\ChangeInvLetterStatus.exe
+C:\Users\MARK\source\repos\ChangeInvLetterStatus\obj\Debug\ChangeInvLetterStatus.pdb
